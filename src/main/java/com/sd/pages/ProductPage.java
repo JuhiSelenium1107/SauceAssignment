@@ -32,10 +32,12 @@ public class ProductPage {
 		driver.findElement(firstProductPrice).getText();
 		System.out.println("First Product Price is: "+firstProductPrice);
 	}
+	
 	public void addToCart() {
 		driver.findElement(addToCartButton).click();
 		System.out.println("Product added successfully");
 	}
+	
 	public void goToCart() {
 		driver.findElement(goToCartButton).click();
 	}
