@@ -14,6 +14,8 @@
     <classes>
       	<class name="com.sd.testcases.VerifySaucedemoLogin"/>
       	<class name="com.sd.testcases.VerifySaucedemoProductPage"/>
+      	<class name="com.api.testcases.VerifyResponseCode"/>
+      
     </classes>
   
   </test> 

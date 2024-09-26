@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
  * 
  * This class will store all the locaters and Methods for Product Page
  * 
- * 
  */
 public class ProductPage {
 	WebDriver driver;
@@ -28,7 +27,6 @@ public class ProductPage {
 		System.out.println("First Product Name is: "+firstProductName);
 		
 		return text;
-		
 	}
 	public void storeProductPrice() {
 		driver.findElement(firstProductPrice).getText();
@@ -41,7 +39,4 @@ public class ProductPage {
 	public void goToCart() {
 		driver.findElement(goToCartButton).click();
 	}
-	
-	
-
 }
